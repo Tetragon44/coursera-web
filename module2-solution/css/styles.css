@@ -8,16 +8,16 @@ h1{
   color: brown;
 }
 h2{
+  
   color: black;
   position: absolute;
-  
-  top: 0;
-  right: 0;
-  padding: 5px;
-  
-  
-  width:fit-content;
+  top: 0px;
+  right: 0px;
+  width:100px;
+  text-align: center;
   border: 1px solid black;
+  margin: 0px;
+  float: right;
   }
   #sushi{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,7 +36,6 @@ p{
 }
 .row {
   width: 100%;
-  
   
 }
 .row-flex, .row-flex > div[class*='col-'] {  
@@ -57,7 +56,7 @@ p{
 .box {
   background-color: chocolate;
   border: 1px solid black;
-  margin: 10px;
+  margin: 30px;
   position: relative;
   
 }
