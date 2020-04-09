@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: cornflowerblue;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#header-nav{
+  background-color: khaki;
+  border-radius: 0;
+  border: 0;
+}
+.nav-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Name*/
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.container button{
+  position: absolute;
+  right: 10px;
+}
+
+#navbar6{
+  
+  text-align: center;
+  clear: both;
+}
+.row {
+  width: 100%;
+  
+}
+.row-flex, .row-flex > div[class*='col-'] {  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 1 auto;
+}
+
+.row-flex-wrap {
+  flex-flow: row wrap;
+  align-content: flex-start;
+  flex:0;
+}
+
+.box {
+  background-color: chocolate;
+  border: 1px solid black;
+  margin: 30px;
+  position: relative;
+  padding: 10px;
+  
+}
+@media (min-width: 992px){
+  .navbar-brand h1 { /* Name*/
+    position: absolute;
+    left: 50px;
+  }
+
+}
